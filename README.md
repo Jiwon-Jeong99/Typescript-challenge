@@ -31,7 +31,7 @@
     ```tsx
     let a = "hello"
     let b : boolean = false
-    ( : boolean이 ts 방식 - type checker가 타입 확인해줌)
+     <!-- : boolean이 ts 방식 - type checker가 타입 확인해줌 -->
     let c : number[] = []
     c.push(1)
     const player = {
@@ -44,5 +44,5 @@
     ```tsx
     let a = "hello"
     a = "bye"
-    (string을 string으로 바꿨기 때문에 괜찮음)
+    <!-- string을 string으로 바꿨기 때문에 괜찮음 -->
     ```
